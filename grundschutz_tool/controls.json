@@ -1,0 +1,12 @@
+[
+  {
+    "id": "CON.1",
+    "title": "Grundschutz Check",
+    "description": "Durchführung einer Basis-Analyse gem. BSI IT-Grundschutz."
+  },
+  {
+    "id": "CON.2",
+    "title": "Regelmäßige Überprüfung",
+    "description": "Kontinuierliche Kontrolle der Sicherheitsmaßnahmen."
+  }
+]

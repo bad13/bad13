@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <title>BSI Grundschutz Tool</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <h1>BSI IT-Grundschutz Kontrollen</h1>
+    <ul>
+    {% for c in controls %}
+      <li><strong>{{ c.id }}:</strong> {{ c.title }} - {{ c.description }}</li>
+    {% endfor %}
+    </ul>
+  </body>
+</html>
